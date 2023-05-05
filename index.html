@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/reponsive.css">
+    <title>Website</title>
+</head>
+
+<body>
+  
+    <header id="header">
+        <div class="header-boder">
+        <div class="header-heading">
+            <li class="info-heading support-heading"><i class="fas fa-question-circle"></i> Hỗ Trợ</li>
+            <li class="info-heading user-heading"><i class="fas fa-users"></i> Tài khoản
+                <div class="lable-user">
+                    <div> <button>Đăng ký</button> </div>
+                    <div> <button>Đăng nhập</button> </div>
+                </div>
+            </li>
+            <li class="info-heading user-guest none">
+                <i class="fas fa-user-tie"></i> 
+                <p class="name-render"></p>
+            </li>
+            <li class="info-heading hotline-heading"><i class="fas fa-phone"></i> Hotline: <p class="tel-heading">
+                    0399624526</p>
+            </li>
+        </div>
+        <div class="nav">
+            <div class="home">
+                <img class="logo" src="./assets/img/logo.png" alt="logo">
+            </div>
+            <div class="index">
+                <li class="all-index">Trang chủ</li>
+                <li class="all-index">Giới thiệu</li>
+                <li class="all-index">Khuyến mãi</li>
+                <li class="all-index small-index">Sản phẩm</li>
+            </div>
+            <div class="find">
+                <input type="text" class="btn btn-input" placeholder="Nhập để tìm kiếm ">
+                <div>
+                    <button class="btn btn-search"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-buy"><i class="fas fa-shopping-cart "></i></button>
+                <div class="quantity-of-goods">1</div>
+            </div>
+        </div>
+    </div>
+        <img class="background-container" src="./assets/img/anh_nen.jpg" alt="anh_minh_hoa"
+            style="width: 100%; height: 450px; ">
+
+    </header>
+    <div id="container">
+
+        <div class="container-body">
+            <div class="container-menu">
+                <div class="container-menu-boder">
+                    <div>
+                        <i class="fas fa-arrow-circle-right"></i>
+                        <h3>Danh mục</h3>
+                    </div>
+
+                    <div class="container-menu-list">
+                        <a href="#rice">Gạo</a>
+                        <div class="cross-menu-list"></div>
+                        <a href="#dry-food">Đồ khô</a>
+                        <div class="cross-menu-list"></div>
+                        <a href="#spice">Gia vị</a>
+                        <div class="cross-menu-list"></div>
+                        <a href="#agricultural">Nông sản</a>
+                        <!-- <div class="cross-menu-list"></div>
+                        <p>Lạc</p>
+                        <div class="cross-menu-list"></div>
+                        <p>Vừng</p> -->
+                    </div>
+                    <div class="container-menu-img">
+                        <img src="./assets/img/banner.jpg" alt="anh_minh_hoa">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container-items">
+                <div class="container-items-banner"><img src="./assets/img/dai-ly-ban-gao-sach.png" alt="anh_minh_hoa">
+                </div>
+                <div class="label-items">
+                    <div id="rice" class="label-items-name">Gạo</div>
+                    <div></div>
+                    <div class="cross-items"></div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-lut-huyet-rong-an-gia-khang-tui-5kg-1.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Gạo lứt huyết rồng túi 5kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 60,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 50,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-luc-pmt-tui-1kg-201912101607555236.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Gạo lứt túi 1kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 40,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 26,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-nep-cai-hoa-vang.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo nếp cái hoa vàng túi 10kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 310,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 299,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-st25.jpeg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo ST25 túi 5kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 250,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 199,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-tam-dien-bien.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo tám điện biên túi 10kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 300,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 250,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao-xi-deo.png" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Gạo xi dẻo túi 10kg </p>
+                            <div class="container-item-price">
+                                <p>Giá: <span>210,000đ</span> </p>
+                                <p class="container-item-pricefix"> 150,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao_bac_huong.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Gạo bắc hương túi 10kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 340,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 299,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>4.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/gao_seng_cu.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo séng cù túi 10kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 510,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 399,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>5.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/tam_thom.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo tám thơm 1kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 15,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 13,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.1k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/nep.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gạo nếp ngon 1kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 30,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 25,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>10k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-numberpage">
+                    <ul class="container-items-numberpage-list">
+                        <li><i class="fas fa-chevron-left"></i></li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <p style="border: none; background-color: #eee;font-size: 3.2rem;">...</p>
+                        <li><i class="fas fa-chevron-right"></i></li>
+                    </ul>
+                </div>
+                <div class="label-items">
+                    <div id="dry-food" class="label-items-name">Đồ khô</div>
+                    <div class="label-items-arrow"></div>
+                    <div class="cross-items"></div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/namhuong.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Nấm hương 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 13,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 10,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/moc_nhi.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Mộc nhĩ 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 20,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 16,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/hanh.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Hành 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 10,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 9,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/toi.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Tỏi 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 14,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 9,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/nam_xao.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Nấm xào 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 20,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 15,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/mang-vau-kho.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Măng vầu 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 50,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 39,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/mang-luoi-lon.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Măng lưỡi lợn 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 60,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 49,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="label-items">
+                    <div id="spice" class="label-items-name">Gia vị</div>
+                    <div class="label-items-arrow"></div>
+                    <div class="cross-items"></div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/Duong_vang.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Đường vàng gói 500g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 40,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 29,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/Dau_an.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Dầu ăn Simply can 5 lít </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 230,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 199,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/nuoc-mam-chinsu-nam-ngu.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Nước mắm Nam ngư chai 900ml </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 199,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 149,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/bot_canh.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gói bột canh Hải Châu 500g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 15,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 9,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/mi_chinh.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Gói mì chính Ajinomoto 1kg </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 14,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 8,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/tuong-ot-chin-su-chai.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Tương ớt chinsu 250ml </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 12,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 10,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/thit_kho_tau.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Gói thịt kho tàu 28g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 9,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 5,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/nuoc-tuong-maggi-dam-dac-chai-700ml.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Nước tương Maggi 700ml </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 81,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 69,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="label-items">
+                    <div id="agricultural" class="label-items-name">Nông sản</div>
+                    <div class="label-items-arrow"></div>
+                    <div class="cross-items"></div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/Lac_do.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Lạc đỏ 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 15,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 12,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/lac_trang.png" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Lạc trắng 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 12,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 9,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/trung_ga.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Trứng gà 10 quả </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 40,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 35,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/trung-vit.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">trứng vịt 10 quả </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 35,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 32,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/do_xanh_boc_vo.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Đỗ xanh bóc vỏ 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 23,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 19,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-boder">
+                    <div class="container-item">
+                        <div><img src="./assets/img/do_den.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Đỗ đen 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 14,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 11,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/mi_chu.jpg" alt="anh_minh_hoa">
+                        </div>
+                        <div>
+                            <p class="container-item-name">Mì chũ gói 500g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 50,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 45,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>1.2k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/hu_tieu_dai.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Hủ tiếu dai gói 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 20,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 15,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/mien.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Miến sạch 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 21,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 16,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="container-item">
+                        <div><img src="./assets/img/do_xanh.jpg" alt="anh_minh_hoa"></div>
+                        <div>
+                            <p class="container-item-name">Đỗ xanh 100g </p>
+                            <div class="container-item-price">
+                                <div>
+                                    <p>Giá: <span> 12,000đ</span> </p>
+                                </div>
+                                <p class="container-item-pricefix"> 9,000đ</p>
+                            </div>
+                            <div class="container-item-like"><i class="fas fa-heart"></i>2.3k like</div>
+                            <div class="container-item-buy"><button>Mua ngay</button><button>Giỏ hàng</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-numberpage">
+                    <ul class="container-items-numberpage-list">
+                        <li><i class="fas fa-chevron-left"></i></li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <p style="border: none; background-color: #eee;font-size: 3.2rem;">...</p>
+                        <li><i class="fas fa-chevron-right"></i></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="up"><i class="fas fa-arrow-alt-circle-up"></i></div> -->
+        <!-- <div class="up"><i class="fas fa-arrow-alt-circle-up"></i></div> -->
+        <div class="container-ib-up">
+            <div class="up"><i class="fas fa-arrow-alt-circle-up"></i></div>
+            <!-- <div class="up"><i class="fas fa-arrow-alt-circle-up"></i> -->
+            <div class="ib"><i class="fas fa-sms"></i></div>
+        </div>
+          
+    </div>
+    <div id="footer">
+        <div class="footer-container">
+            <div>
+                <p>Địa chỉ: Số 18 ngõ 203 Kim Ngưu, Hai Bà Trưng ,Hà Nội.</p>
+                <div class="footer-container-map"><img src="./assets/img/map.jpg" alt="ban_do"></div>
+            </div>
+            <div class="footer-email">
+                <p>Điền email để được nhận ưu đãi</p>
+                <input type="text" name="" id="" placeholder="Email của bạn">
+            </div>
+            <div class="footer-payment">
+                <p>Các phương thức thanh toán</p>
+                <div class="footer-payment-img">
+                    <img src="./assets/img/visa_thanh_toan.png" alt="anh_minh_hoa">
+                    <img src="./assets/img/ucb_thanh_toan.png" alt="anh_minh_hoa">
+                </div>
+                <div class="QR-code"><img src="./assets/img/Ngân hàng Techcombank.png" alt="anh minh hoa"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- form register -->
+                <div class="form-register">
+                    <div class="form-register-header">
+                        <span>Đăng ký</span>
+                        <button>Đăng nhập</button>
+                    </div>
+                    <div class="form-register-user">
+                        <input type="text" placeholder="Tên đăng nhập">
+                        <span class="form-message"></span>
+                        <br>
+                        <input type="password" placeholder="Mật khẩu của bạn">
+                        <span class="form-message"></span>
+                        <br>
+                        <input type="password" placeholder="Nhập lại mật khẩu">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-register-note">
+                        <p>Bằng việc đăng ký, bạn đã đồng ý với Double N về <a href="">điều khoản dịch vụ</a> &
+                            <a href="">chính sách bảo mật </a>
+                        </p>
+                    </div>
+                    <div class="form-register-btn">
+                        <button>TRỞ LẠI</button>
+                        <button class="submit-register" type="submit">ĐĂNG KÝ</button>
+                    </div>
+                    <div class="form-register-footer">
+                        <div class="form-register-infooter">
+                            <button><i class="fab fa-facebook-square"></i> Kết nối với Facebook</button>
+                            <button><i class="fab fa-google-plus-square"></i> Kết nối với google</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+                <!-- form-login -->
+                <div class="form-login">
+                    <div s>Đăng Nhập</div>
+                    <div class="form-login-name"><input class="name-login" type="text  " placeholder="Email/Số điện thoại/Tên đăng nhập">
+                    </div>
+                    <div class="form-login-pass"><input class="pass-login" type="password" placeholder="Mật khẩu"><i
+                            class="fas fa-eye-slash eye"></i>
+                    </div>
+                    <div class="form-login-checkin"><button class="login-btn" type="submit"> Đăng nhập </button></div>
+                    <div class="form-login-help">
+                        <a href="">Quên mật khẩu</a>
+                        <a href="">Đăng nhập với SMS</a>
+                    </div>
+                    <div class="form-login-line">
+                        <div class="cross"></div><span class="span">Hoặc</span>
+                        <div class="cross"></div>
+                    </div>
+                    <div class="form-login-social">
+                        <div> <i class="fab fa-facebook-square form-login-social-fb"></i> Facebook</a></div>
+                        <div><i class="fab fa-google-plus-square form-login-social-gg"></i> Google</a></div>
+                        <div><i class="fab fa-apple form-social-ap"></i> Apple</a></div>
+                    </div>
+                    <div class="form-login-note">
+                        <div><button>Đăng ký<button></div>
+                        <p>Bạn mới biết đến cửa hàng?</p>
+                    </div>
+               </div>
+               <!--  -->
+               <!-- <i class="fas fa-minus"></i>,<i class="fas fa-plus"></i> -->
+               <!-- cart -->
+               <div class="cart">
+                  <table>
+                    <thead>
+                    <tr class="cart-head">
+                        <th><p>Mặt hàng</p></th>
+                        <th><p>Giá tiền</p></th>
+                        <th><p>số lượng</p></th>
+                        <th><p>Thành tiền</p></th>
+                    </tr>
+                    </thead>
+                    <tbody class="cart-body"></tbody>
+                    <tfoot>
+                        <tr>
+                            <th class="cart-footer2" colspan="1" ><button class="cart-pay">Thanh Toán</button> </th>
+                            <td  class="cart-footer" colspan="3"> </td>
+                            
+                        </tr>
+                        
+                    </tfoot>
+                    
+                </table>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
